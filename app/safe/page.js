@@ -650,18 +650,60 @@ export default function Safe() {
                                       USA
                                     </option>
                                     <option
-                                      value="Canada"
-                                      label="Canada"
+                                      value="UK"
+                                      label="UK"
                                       className="text-[#363637]"
                                     >
-                                      Canada
+                                      UK
                                     </option>
                                     <option
-                                      value="Mexico"
-                                      label="Mexico"
+                                      value="BVI"
+                                      label="BVI"
                                       className="text-[#363637]"
                                     >
-                                      Mexico
+                                      BVI
+                                    </option>
+                                    <option
+                                      value="UAE"
+                                      label="UAE"
+                                      className="text-[#363637]"
+                                    >
+                                      UAE
+                                    </option>
+                                    <option
+                                      value="Cayman Islands"
+                                      label="Cayman Islands"
+                                      className="text-[#363637]"
+                                    >
+                                      Cayman Islands
+                                    </option>
+                                    <option
+                                      value="Singapore"
+                                      label="Singapore"
+                                      className="text-[#363637]"
+                                    >
+                                      Singapore
+                                    </option>
+                                    <option
+                                      value="Switzerland"
+                                      label="Switzerland"
+                                      className="text-[#363637]"
+                                    >
+                                      Switzerland
+                                    </option>
+                                    <option
+                                      value="Luxembourg"
+                                      label="Luxembourg"
+                                      className="text-[#363637]"
+                                    >
+                                      Luxembourg
+                                    </option>
+                                    <option
+                                      value="Lichtenstein"
+                                      label="Lichtenstein"
+                                      className="text-[#363637]"
+                                    >
+                                      Lichtenstein
                                     </option>
                                   </Field>
                                 </div>
@@ -696,18 +738,60 @@ export default function Safe() {
                                       USA
                                     </option>
                                     <option
-                                      value="Canada"
-                                      label="Canada"
+                                      value="UK"
+                                      label="UK"
                                       className="text-[#363637]"
                                     >
-                                      Canada
+                                      UK
                                     </option>
                                     <option
-                                      value="Mexico"
-                                      label="Mexico"
+                                      value="BVI"
+                                      label="BVI"
                                       className="text-[#363637]"
                                     >
-                                      Mexico
+                                      BVI
+                                    </option>
+                                    <option
+                                      value="UAE"
+                                      label="UAE"
+                                      className="text-[#363637]"
+                                    >
+                                      UAE
+                                    </option>
+                                    <option
+                                      value="Cayman Islands"
+                                      label="Cayman Islands"
+                                      className="text-[#363637]"
+                                    >
+                                      Cayman Islands
+                                    </option>
+                                    <option
+                                      value="Singapore"
+                                      label="Singapore"
+                                      className="text-[#363637]"
+                                    >
+                                      Singapore
+                                    </option>
+                                    <option
+                                      value="Switzerland"
+                                      label="Switzerland"
+                                      className="text-[#363637]"
+                                    >
+                                      Switzerland
+                                    </option>
+                                    <option
+                                      value="Luxembourg"
+                                      label="Luxembourg"
+                                      className="text-[#363637]"
+                                    >
+                                      Luxembourg
+                                    </option>
+                                    <option
+                                      value="Lichtenstein"
+                                      label="Lichtenstein"
+                                      className="text-[#363637]"
+                                    >
+                                      Lichtenstein
                                     </option>
                                   </Field>
                                 </div>
@@ -755,7 +839,7 @@ export default function Safe() {
                               >
                                 <option
                                   value=""
-                                  label="Select a benificialowner"
+                                  label="Select a benificial owner"
                                 >
                                   Select a benificialowner
                                 </option>
@@ -806,18 +890,25 @@ export default function Safe() {
                                   Investor type
                                 </option>
                                 <option
-                                  value="Investor type 1"
-                                  label="Investor type 1"
+                                  value="Individual"
+                                  label="Individual"
                                   className="text-[#363637]"
                                 >
-                                  Investor type 1
+                                 Individual
                                 </option>
                                 <option
-                                  value="Investor type 2"
-                                  label="Investor type 2"
+                                  value="Venture Fund (LP)"
+                                  label="Venture Fund (LP)"
                                   className="text-[#363637]"
                                 >
-                                  Investor type 2
+                                 Venture Fund (LP)
+                                </option>
+                                <option
+                                  value="Other Entity (Trust,LLC,Corporation)"
+                                  label="Other Entity (Trust,LLC,Corporation)"
+                                  className="text-[#363637]"
+                                >
+                                 Other Entity (Trust,LLC,Corporation)
                                 </option>
                               </Field>
                               {errors.investortype && touched.investortype ? (
